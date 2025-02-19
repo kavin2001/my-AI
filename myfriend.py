@@ -158,7 +158,7 @@ if __name__ == "__main__":
             webbrowser.open(f"{cm}")
 
         elif "send message" in query:
-            kit.sendwhatmsg("+919488536289", "this is test is testing protocol",4,13)
+            kit.sendwhatmsg("your Number", "this is test is testing protocol",4,13)
             time.sleep(120)
             speak("message has been sent sir")
 
@@ -173,9 +173,9 @@ if __name__ == "__main__":
             speak("sir what should i say")
             query = takecommand().lower()
             if "send a file" in query:
-                email = 'gavago57@gmail.com'  # Your email
-                password = 'gokul12345'  # your email account password
-                send_to_email = 'mkmkavin2001@gmail.com'  # Whom you are sending the message to
+                email = 'your email address'  # Your email
+                password = 'email password'  # your email account password
+                send_to_email = 'sending email'  # Whom you are sending the message to
                 speak("okay sir, what is the subject for this email")
                 query = takecommand().lower()
                 subject = query  # The Subject in the email
@@ -214,9 +214,9 @@ if __name__ == "__main__":
                 speak("email has been sent to monika")
 
             else:
-                user_email = 'gavago57@gmail.com'  # Your email
-                user_password = 'gokul12345'  # Your email account password
-                send2_to_email = 'mkmkavin2001@gmail.com'  # Whom you are sending the message to
+                user_email = 'your email address'  # Your email
+                user_password = 'your email password'  # Your email account password
+                send2_to_email = 'sending email'  # Whom you are sending the message to
                 message = query  # The message in the email
 
                 server = smtplib.SMTP('smtp.gmail.com', 587)  # Connect to the server
