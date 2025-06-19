@@ -27,7 +27,7 @@
 #     engine.say(audio)
 #     engine.runAndWait()
 
-# openai.api_key= "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"
+# openai.api_key= ""
 
 # def transcribe_audio():
 #     recognizer = sr.Recognizer()
